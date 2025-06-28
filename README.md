@@ -7,3 +7,6 @@ It takes dataset from this Kaggle page with 44868 examles of text: https://www.k
 ### fine_tuned_AI_Human_Detector_488
 This is lighter AI vs Human detector. Firstly downgrade NumPy library to the version <2.0 ! 
 It takes this dataset with 488 examples of text: https://huggingface.co/datasets/ardavey/human-ai-generated-textv It use RoBERTa model from Hugging Face which is the best for this purpose around free models. But this dataset is very small, only 488 samles, so model will have very low accuracy.
+
+### AI_vs_Human_Detector_with_Roberta.ipynb
+This AI detector use raw (not fine tuned) RoBERTa model, which actually works fine and has little bit more than just 50% accuracy
